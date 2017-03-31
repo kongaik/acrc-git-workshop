@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void hello1(void)
+void helloNew01(void)
 {
-	print(stdout,"This literak is displayed on standard output\n");
 	print(stdout,"Make further changes in feature1 branch");
 }
 
-void helloMy(void)
+void helloNew02(void)
 {
 	print(stdout,"This a new function added to feature1 branch\n");
 }
